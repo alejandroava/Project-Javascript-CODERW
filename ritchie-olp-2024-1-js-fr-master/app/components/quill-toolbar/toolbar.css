@@ -1,0 +1,6 @@
+.toolbar-container{
+    border: 1px solid black !important;
+    background-color:#A155E8;
+    display: flex;
+    justify-content: center;
+}

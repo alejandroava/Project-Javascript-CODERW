@@ -1,0 +1,53 @@
+
+.menu-section{
+    border-radius: 10px;
+    border: solid 1px black;
+    background-color: #d3d3d3;
+    overflow: hidden;
+    box-shadow: rgb(118, 38, 247, 0.16) 0px 3px 6px, rgb(118, 38, 247, 0.23) 0px 3px 6px;
+}
+
+.menu-title{
+    width: 100%;
+    padding: 20px;
+    height: fit-content;
+    text-align: center;
+    border-bottom: solid 1px black;
+    background-color: blueviolet;
+    color:white;
+}
+
+.menu-content-child{ 
+    width: 100%;
+    min-height: 50px;
+    height: fit-content;
+    padding: 20px;
+    color: black;
+    display: flex;
+    gap: 20px;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
+
+.menu-content-challenge{
+    width: 100%;
+    min-height: 50px;
+    height: fit-content;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+.menu-content-theory{
+    width: 100%;
+    padding: 20px;
+    height: fit-content;
+    min-height: 50px;
+    color: black;
+    display: flex;
+    gap: 20px;
+    justify-content:center ;
+    flex-wrap: wrap;
+}
