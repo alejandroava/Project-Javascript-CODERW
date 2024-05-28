@@ -7,7 +7,7 @@
 }
 
 .loader {
-    width: fit-content;
+    /* width: fit-content; */
     font-weight: bold;
     font-family: monospace;
     font-size: 30px;
