@@ -1,3 +1,4 @@
+
 .visible {
     display: block;
 }
@@ -18,28 +19,60 @@ h2 {
     text-align: center;
     color: var(--white-color);
     padding: 20px;
-    margin-top:30px;
+}
+.background{
+   position:absolute;
+    width: 100%;
+    height: 85vh;
+    z-index: -1;
+    left: 0;
 }
 .container{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 80%;
     margin: 0 auto;
-    gap: 10px;
+    gap: 30px;
 }
 .container_info{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    width: 200px;
+    height: 200px;
     gap:20px;
 }
 .content{
     width: 300px;
     height: 200px;
     background-color: var(--secondary-color);
-    color: var(--white-colot)
+    color: var(--white-colot);
+}
+.container_table{
+    flex-basis: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+    
+}
+.table{
+    border: 1px solid var(--white-color);
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark-color);
+    
+}
+th{
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    background-color: var(--secondary-color);
+}
+td{
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
 }
 
 .loader:before {

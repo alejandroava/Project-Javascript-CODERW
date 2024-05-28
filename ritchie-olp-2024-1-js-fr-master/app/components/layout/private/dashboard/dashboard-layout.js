@@ -4,6 +4,7 @@ import { NavigationBar } from '../../../navigation-bar/navigation-bar'
 import { SidebarMenu } from '../../../sidebar-menu/sidebar-menu'
 import styles from './dashboard-layout.css'
 import menuImages from '../../../sidebar-menu/menuImages'
+
 const {
     home,
     hacker,
@@ -15,9 +16,11 @@ const {
     tienda,
     routes,
 } = menuImages
+
 import stylesnav from '../../../navigation-bar/navigation-bar.css'
 import stylesside from '../../../sidebar-menu/sidebar-menu.css'
 import { FooterScene } from '../../../footer/footer'
+
 export function DashboardLayout(
     pageContent,
     logic,
@@ -32,22 +35,14 @@ export function DashboardLayout(
     sidebarData = [
         { href: '/dashboard', name: 'Home', imagen: home },
         { href: '/dashboard/settings', name: 'Lenguajes', imagen: rutas },
-        // { href: '/dashboard/users', name: 'Users' },
         { href: '/dashboard/challenge', name: 'Retos', imagen: juegos },
-        {
-            href: '/dashboard/stadistics',
-            name: 'Estadisticas',
-            imagen: gamificacion,
-        },
+        { href: '/dashboard/stadistics', name: 'Estadisticas',imagen: gamificacion},
         { href: '/dashboard/forum', name: 'Tienda', imagen: tienda },
+        {href: '/dashboard/routes', name: 'Rutas de aprendizaje', imagen: routes },
+        { href: '/dashboard/routes/languages?routeID=2', name: 'Backend' },
+        // { href: '/dashboard/users', name: 'Users' },
         // { href: '/dashboard/profile', name: 'Profile' },
         // { href: '/dashboard/games', name: 'Games' },
-        {
-            href: '/dashboard/routes',
-            name: 'Rutas de aprendizaje',
-            imagen: routes,
-        },
-        { href: '/dashboard/routes/languages?routeID=2', name: 'Backend' },
     ]
 
     navbarData = {
@@ -70,9 +65,10 @@ export function DashboardLayout(
       ${pageContent}
     </div>
   </div>
-  `
+`;
 
-    logic()
+    logic();
+
     const lenguage = document.getElementById('/dashboard/settings')
     const list_show = document.getElementById('list_show')
     lenguage.addEventListener('mouseover', () => {

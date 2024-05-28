@@ -1,6 +1,10 @@
 import styles from './home.css'
+import background from '../../../assets/galaxy.jpg'
+import image from './panel.jpeg'
+
 export function HomeScene() {
-    const pageContent = ` 
+  const pageContent = ` 
+  <img class='${styles.background}'src='${background}'>
   <div class='${styles.container}'>
     <div class='${styles.container_info}'>
       <div class='${styles.content}'>
@@ -13,19 +17,62 @@ export function HomeScene() {
         <h2>foro</h2>
       </div>
     </div>
+    <div class='${styles.container_table}'>
+        <h2>TOP 10 Coders</h2>
+        <table id="coderTable" class='${styles.table}'>
+          <thead>
+            <tr>
+            <th>Posicion</th>
+              <th>Nombre</th>
+              <th>Marcador</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
-  `
-    const logi = () => {
-        console.log('soy la logica')
-    }
+  `;
 
-    return {
-        pageContent,
-        logi,
-    }
+  const logic = async () => {
+    const res = await fetch('http://localhost:3000/coder')
+    const data = await res.json()
+    console.log(data)
+
+    const tableBody = document.querySelector('#coderTable tbody');
+
+    data.forEach((coder,index) => {
+      const $row = document.createElement('tr');
+      const $position = document.createElement('td')
+      const $name = document.createElement('td');
+      const $score = document.createElement('td');
+
+      $position.textContent = index + 1
+      $name.textContent = coder.name;
+      $score.textContent = coder.score;
+
+      $row.appendChild($position)
+      $row.appendChild($name);
+      $row.appendChild($score);
+      tableBody.appendChild($row);
+    });
+  }
+   return {
+    pageContent,
+    logic
+  }
 }
 
-//   // generate random number between 1 an 10
+
+  
+
+  // return {
+  //   pageContent
+  // }
+
+
+  // generate random number between 1 an 10
 //   const randomNumber = Math.floor(Math.random() * 10) + 1;
 
 //   const footer = `
@@ -97,3 +144,4 @@ export function HomeScene() {
 //     logic
 //   }
 // }
+
