@@ -4,7 +4,6 @@ import image from './panel.jpeg'
 
 export function HomeScene() {
   const pageContent = ` 
-  <img class='${styles.background}'src='${background}'>
   <div class='${styles.container}'>
     <div class='${styles.container_info}'>
       <div class='${styles.content}'>

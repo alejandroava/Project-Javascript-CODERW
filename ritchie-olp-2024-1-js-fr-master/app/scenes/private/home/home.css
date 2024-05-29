@@ -32,9 +32,10 @@ h2 {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     gap: 30px;
+    height: 60vh;
 }
 .container_info{
     display: flex;

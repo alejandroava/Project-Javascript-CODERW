@@ -6,7 +6,7 @@
       "content": "{\"ops\":[{\"insert\":\"hrml\\n\"}]}"
     }
   ],
-  "languages": [],
+  "languages": ["html"],
   "modules": [],
   "challenges": [],
   "coder":[

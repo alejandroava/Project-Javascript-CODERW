@@ -13,7 +13,7 @@ export function SidebarMenu(data = []) {
       item.active = true;
     }
   });
-
+ 
   return `
     <aside id='sidebar' class="${styles["sidebar-menu"]}">
       <ul>
@@ -34,7 +34,8 @@ export function SidebarMenu(data = []) {
                 <button type='button' class='${styles.btn}'>JS</button></li>
             </ul>`
       : `<button type="button">${item.name}</button>`
-    }
+    }  
+    
           </li>
            
         `).join('')}
@@ -42,4 +43,5 @@ export function SidebarMenu(data = []) {
       </ul>
     </aside>
   `;
+    
 }
