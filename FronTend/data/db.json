@@ -1,78 +1,93 @@
 {
   "routes": [
-    {
-      "id": 254761494,
-      "name": "fronted",
-      "content": "{\"ops\":[{\"insert\":\"hrml\\n\"}]}"
-    }
+
   ],
   "languages": [
-   
-    {
-      "id": 536635493,
-      "name": "HTML",
-      "content": "{\"ops\":[{\"insert\":\"\\n\"}]}",
-      "routeID": "254761494"
-    }
+    
   ],
-  "modules": [],
-  "challenges": [],
+  "modules": [
+   
+  ],
+  "challenges": [
+    
+  ],
   "coder": [
     {
       "name": "Daniela",
       "image": "https://i.pinimg.com/236x/fa/d5/e7/fad5e79954583ad50ccb3f16ee64f66d.jpg",
-      "score": 2056
+      "score": 2056,
+      "id": "6db6"
     },
     {
       "name": "Jessica",
       "image": "https://pics.craiyon.com/2023-11-15/BcL2X-ZvT9ShA3Q5RQPjzg.webp",
-      "score": 2254
+      "score": 2254,
+      "id": "9a9b"
     },
     {
       "name": "CodigoFuente",
       "image": "https://img.freepik.com/fotos-premium/avatar-masculino-anime_950633-978.jpg",
-      "score": 2896
+      "score": 2896,
+      "id": "5580"
     },
     {
       "name": "Pedro",
       "image": "https://i.pinimg.com/236x/fa/d5/e7/fad5e79954583ad50ccb3f16ee64f66d.jpg",
-      "score": 1022
+      "score": 1022,
+      "id": "43b7"
     },
     {
       "name": "Daniela",
       "image": "https://animemotivation.com/wp-content/uploads/2023/06/cute-anime-pfp-profile-pictures-girls-29.jpg",
-      "score": 2056
+      "score": 2056,
+      "id": "dad9"
     },
     {
       "name": "Omar",
-       "image": "https://pm1.aminoapps.com/7744/b0b589e9dd3483027a6579fb9688254bc5d18de5r1-736-736v2_00.jpg",
-      "score": 2056
+      "image": "https://pm1.aminoapps.com/7744/b0b589e9dd3483027a6579fb9688254bc5d18de5r1-736-736v2_00.jpg",
+      "score": 2056,
+      "id": "6056"
     },
     {
       "name": "Diomedez",
-       "image": "https://i.pinimg.com/1200x/e8/78/91/e8789173b998009dab0ed400ebba0c18.jpg",
-      "score": 2056
+      "image": "https://i.pinimg.com/1200x/e8/78/91/e8789173b998009dab0ed400ebba0c18.jpg",
+      "score": 2056,
+      "id": "84a6"
     },
     {
       "name": "Carlos",
-       "image": "https://i.pinimg.com/736x/46/24/cd/4624cd084aaa6762bb24d5e995123180.jpg",
-      "score": 2056
+      "image": "https://i.pinimg.com/736x/46/24/cd/4624cd084aaa6762bb24d5e995123180.jpg",
+      "score": 2056,
+      "id": "1a45"
     },
     {
       "name": "Antonio",
-       "image": "https://animemotivation.com/wp-content/uploads/2023/06/cute-anime-pfp-profile-pictures-girls-29.jpg",
-      "score": 2056
+      "image": "https://animemotivation.com/wp-content/uploads/2023/06/cute-anime-pfp-profile-pictures-girls-29.jpg",
+      "score": 2056,
+      "id": "06a7"
     },
     {
       "name": "Antonio",
-      "score": 2056
+      "score": 2056,
+      "id": "5072"
     }
   ],
-  "perfil":{
-    "name":"Nicolas Picon",
-    "info":{
-      "languages":["Html", "JavaScript", "Python", "Java", "c++", "cichart"],
-      "medals":["../assets/medalla1.png", "../assets/medalla1.png","../assets/medalla1.png" ]
+  "perfil": {
+    "name": "Nicolas Picon",
+    "info": {
+      "languages": [
+        "Html",
+        "JavaScript",
+        "Python",
+        "Java",
+        "c++",
+        "cichart"
+      ],
+      "medals": [
+        "../assets/medalla1.png",
+        "../assets/medalla1.png",
+        "../assets/medalla1.png"
+      ]
     }
   }
 }

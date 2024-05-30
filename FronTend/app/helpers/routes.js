@@ -21,7 +21,7 @@ export const routes = {
         { path: '/dashboard', component: HomeScene },
         { path: '/dashboard/settings', component: SettingsScene },
         { path: '/dashboard/users', component: UserScene },
-        { path: '/dashboard/challenge', component: Challenge },
+        { path: '/dashboard/challenge/tips', component: Challenge },
         { path: '/dashboard/games', component: GameScene },
         { path: '/dashboard/profile', component: ProfileScene },
         { path: '/dashboard/routes', component: RoutesScene },
