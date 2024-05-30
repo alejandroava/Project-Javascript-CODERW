@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: var(--spacing-2);
-    background-color: #f0f0f0;
+    background-color: var(--white-color);
     height: 100%;
     gap: var(--spacing-2);
     color: rgb(7, 7, 7);

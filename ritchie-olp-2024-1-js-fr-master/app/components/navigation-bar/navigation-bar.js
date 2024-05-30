@@ -19,7 +19,7 @@ export function NavigationBar(
       <img id="menu-hamburger" src='${menuHamburguesa}' class='${styles.menu_hamburguer}'>
     </div>
     <div>  
-      <h1 class='${styles.title}'>Coderw./<h1>
+      <h1 class='${styles.title}'>CODERW./<h1>
     </div> 
     <div class='${styles.menu_right}' >
       <img src=''>
@@ -37,7 +37,7 @@ export function NavigationBar(
           <h2>${user}</h2>
         </div>
         <hr>
-        <a href='${'/dashboard/reports'}'} class='${styles.sub_menu_link}'>
+        <a href='${'/dashboard/profile'}'} class='${styles.sub_menu_link}'>
           <img src='${profile}'>
           <p>Ver perfil</p>
           <span>></spanp    </a>

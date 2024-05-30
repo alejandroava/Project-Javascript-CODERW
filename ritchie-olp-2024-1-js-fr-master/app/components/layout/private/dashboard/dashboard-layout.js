@@ -39,7 +39,7 @@ export function DashboardLayout(
         { href: '/dashboard/stadistics', name: 'Estadisticas',imagen: gamificacion},
         { href: '/dashboard/forum', name: 'Tienda', imagen: tienda },
         {href: '/dashboard/routes', name: 'Rutas de aprendizaje', imagen: routes },
-        { href: '/dashboard/routes/languages?routeID=2', name: 'Backend' },
+        // { href: '/dashboard/routes/languages?routeID=2', name: 'Backend' },
         // { href: '/dashboard/users', name: 'Users' },
         // { href: '/dashboard/profile', name: 'Profile' },
         // { href: '/dashboard/games', name: 'Games' },

@@ -4,7 +4,7 @@ export function FooterScene() {
     <hr>
     <div class='${styles.footer_container}'>
         <div class= '${styles.cr}'>
-            <p>Copyright © 2024 codeStar</p>
+            <p>Copyright © 2024 CODERW</p>
         </div>    
         <ul class='${styles.footer_list}'>
             <li><a href='#'>Contacto Riwi</a></li>
