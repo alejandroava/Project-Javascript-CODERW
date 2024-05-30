@@ -22,7 +22,7 @@ export const ProfileScene = () => {
             </div>
             <div class=${styles["progress"]}>
                 <h2>Progreso</h2>
-                <table id= "table" class=${styles["table"]}>
+                <table id= "table" class=${styles["tablee"]}>
                     
                 </table>
             </div>

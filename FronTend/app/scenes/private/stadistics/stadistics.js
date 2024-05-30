@@ -4,7 +4,7 @@ export function StatisticsScene() {
     const pageContent = `
     <div class=${styles["table-container"]}>
         <h1 class=${styles["h1"]} >Estadísticas de Retos de Programación</h1>
-        <table class=${styles["table"]}>
+        <table class=${styles["tablei"]}>
             <thead class=${styles["thead"]}>
                 <tr>
                     <th>Nombre del Reto</th>

@@ -15,7 +15,7 @@
     color: #333;
 }
 
-.table {
+.tablei {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -26,20 +26,20 @@
     color: white;
 }
 
-th, td {
+.tablei th, td {
     text-align: left;
     padding: 12px;
 }
 
 
-tr:nth-child(even) {
+.tablei tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-tr:hover {
+.tablei tr:hover {
     background-color: #ddd;
 }
 
-td {
+.tablei td {
     border-bottom: 1px solid #ddd;
 }

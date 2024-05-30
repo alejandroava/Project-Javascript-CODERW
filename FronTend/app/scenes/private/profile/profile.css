@@ -77,15 +77,22 @@
     justify-content: center;
 }
 
-.table {
+.tablee {
     width: 100%;
     border-collapse: collapse;
     /* background-color: red; */
     color: black;
 }
 
-th, td {
-    /* text-align: left; */
+.tablee  th  {
+    
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    width: 100px;
+}
+.tablee  tr  {
+    
     padding: 8px;
     border-bottom: 1px solid #ddd;
     color: #333;

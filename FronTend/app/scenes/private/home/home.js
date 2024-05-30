@@ -1,27 +1,44 @@
 import styles from './home.css'
 import background from '../../../assets/galaxy.jpg'
 import image from './panel.jpeg'
+import html from '../../../assets/iconos-menu/icono_html.png'
+import css from '../../../assets/iconos-menu/css.png'
+import js from '../../../assets/iconos-menu/js.png'
 
 export function HomeScene() {
   const pageContent = ` 
-  <div class='${styles.container}'>
-    <div class='${styles.container_info}'>
-      <div class='${styles.content}'>
-        <h2>Lenguages</h2>
+    <div class='${styles.container}'>
+      <div class='${styles.content} ${styles.color_html}'>
+        <h2 class='${styles.content__title}'>HTML</h2>
+        <p>Domina la estructura y marcados de paginas web</p>
+        <div class='${styles.card_footer}'>
+          <a href=''class='${styles.content__a}' >Empezar aprender</a>
+          <img src='${html}'>
+        </div> 
       </div>
-      <div class='${styles.content}'>
-        <h2>Reto del dia</h2>
+      <div class='${styles.content} ${styles.color_css}'>
+        <h2 class='${styles.content__title}'>CSS</h2>
+        <p>Domina el diseño y el estilo de las páginas web.</p>
+        <div class='${styles.card_footer}'>
+          <a href='' class='${styles.content__a}'>Empezar aprender</a>
+          <img src='${css}'}>
+        </div>
       </div>
-      <div class='${styles.content}'>
-        <h2>foro</h2>
+      <div class='${styles.content} ${styles.color_js}'>
+        <h2 class='${styles.content__title}'>Javascript</h2>
+        <p>Domina la lógica de programación y la interactividad en las páginas web.</p>
+        <div class='${styles.card_footer}'>
+          <a href='' class='${styles.content__a}'>Empezar aprender</a>
+          <img src='${js}'>
+        </div>  
       </div>
     </div>
     <div class='${styles.container_table}'>
-        <h2>TOP 10 Coders</h2>
+        <h2 class='${styles.content__title}'>TOP 10 Coders</h2>
         <table id="coderTable" class='${styles.table}'>
           <thead>
             <tr>
-            <th>Posicion</th>
+            <th class='${styles.th_position}'>Posicion</th>
               <th>Nombre</th>
               <th>Marcador</th>
             </tr>
@@ -41,30 +58,37 @@ export function HomeScene() {
 
     const tableBody = document.querySelector('#coderTable tbody');
 
-    data.forEach((coder,index) => {
+   data.forEach((coder, index) => {
       const $row = document.createElement('tr');
-      const $position = document.createElement('td')
-      const $name = document.createElement('td');
+      const $position = document.createElement('td');
+      const $nameImageCell = document.createElement('td'); 
+      const $nameImageContainer = document.createElement('div'); 
+      const $name = document.createElement('span'); 
+      const $image = document.createElement('img'); 
       const $score = document.createElement('td');
 
-      $position.textContent = index + 1
+      $position.textContent = index + 1;
       $name.textContent = coder.name;
       $score.textContent = coder.score;
+      $image.src = coder.image;
+     $image.style.width = '40px';
 
-      $row.appendChild($position)
-      $row.appendChild($name);
+      $nameImageContainer.appendChild($image); 
+      $nameImageContainer.appendChild($name); 
+      $nameImageCell.appendChild($nameImageContainer); 
+
+      $row.appendChild($position);
+      $row.appendChild($nameImageCell);
       $row.appendChild($score);
       tableBody.appendChild($row);
     });
-  }
-   return {
+  };
+
+  return {
     pageContent,
     logic
-  }
+  };
 }
-
-
-  
 
   // return {
   //   pageContent
