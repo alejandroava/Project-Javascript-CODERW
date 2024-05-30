@@ -1,0 +1,69 @@
+{
+  "routes": [
+    {
+      "id": 254761494,
+      "name": "fronted",
+      "content": "{\"ops\":[{\"insert\":\"hrml\\n\"}]}"
+    }
+  ],
+  "languages": [
+   
+    {
+      "id": 536635493,
+      "name": "HTML",
+      "content": "{\"ops\":[{\"insert\":\"\\n\"}]}",
+      "routeID": "254761494"
+    }
+  ],
+  "modules": [],
+  "challenges": [],
+  "coder": [
+    {
+      "name": "Daniela",
+      "score": 2056
+    },
+    {
+      "name": "Jessica",
+      "score": 2254
+    },
+    {
+      "name": "CodigoFuente",
+      "score": 2896
+    },
+    {
+      "name": "Pedro",
+      "score": 1022
+    },
+    {
+      "name": "Daniela",
+      "score": 2056
+    },
+    {
+      "name": "Omar",
+      "score": 2056
+    },
+    {
+      "name": "Diomedez",
+      "score": 2056
+    },
+    {
+      "name": "Carlos",
+      "score": 2056
+    },
+    {
+      "name": "Antonio",
+      "score": 2056
+    },
+    {
+      "name": "Antonio",
+      "score": 2056
+    }
+  ],
+  "perfil":{
+    "name":"Nicolas Picon",
+    "info":{
+      "languages":["Html", "JavaScript", "Python", "Java"],
+      "medals":["../assets/medalla1.png","https://img.freepik.com/vector-premium/medalla-oro-icono-primer-lugar_118124-5410.jpg" ]
+    }
+  }
+}

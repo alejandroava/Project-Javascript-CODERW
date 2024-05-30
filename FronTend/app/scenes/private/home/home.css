@@ -1,0 +1,87 @@
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader {
+    /* width: fit-content; */
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 30px;
+    clip-path: inset(0 3ch 0 0); /* Esto significa que el texto se va a mostrar de 3 en 3 caracteres */
+    animation: l4 1s steps(4) infinite;
+}
+h2 {
+    text-align: center;
+    color: var(--white-color);
+    padding: 20px;
+}
+.background{
+   position:absolute;
+    width: 100%;
+    height: 85vh;
+    z-index: -1;
+    left: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    height: 60vh;
+}
+.container_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    gap:20px;
+}
+.content{
+    width: 300px;
+    height: 200px;
+    background-color: var(--secondary-color);
+    color: var(--white-colot);
+}
+.container_table{
+    flex-basis: 50%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+    
+}
+.table{
+    border: 1px solid var(--white-color);
+    width: 100%;
+    height: 300px;
+    background-color: var(--dark-color);
+    
+}
+th{
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    background-color: var(--secondary-color);
+}
+td{
+    border: 1px solid var(--black-color);
+    color: var(--white-color);
+}
+
+.loader:before {
+    content: "Cargando..."
+}
+
+@keyframes l4 {
+    to {
+        clip-path: inset(0 -1ch 0 0)
+    }
+}

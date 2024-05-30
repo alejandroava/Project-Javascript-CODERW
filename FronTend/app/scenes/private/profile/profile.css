@@ -1,0 +1,106 @@
+.profile-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.avatar{
+    /* width: 500px;
+    height: 300px; */
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header .avatar {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    animation: mover .4s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: translate( 0, -5px);
+    }
+   
+
+    100% {
+        transform: translate(0, 5px);
+    }
+
+
+    
+}
+
+.profile-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medals, .progress {
+    width: 48%;
+    
+}
+
+.medals h2, .progress h2 {
+    font-size: 20px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.medals ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.medals li {
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    /* background-color: red; */
+    color: black;
+}
+
+th, td {
+    /* text-align: left; */
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    width: 100px;
+}
+
+.progress-bar {
+    background-color:#333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progress-fill {
+    background-color: #915cd6;
+    height: 100%;
+}
