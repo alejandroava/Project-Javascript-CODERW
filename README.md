@@ -31,11 +31,10 @@ Existe un problema que manejan todos los centros de educación… El cual consis
   - Navegación del sitio.
   - Como usuario, quiero poder acceder a las diferentes secciones de la aplicación a través de una barra lateral (menú desplegable) y una barra de navegación para poder navegar fácilmente por el sitio y         encontrar lo que necesito rápidamente.
   - Usuario
-RF1.1
-Crear el componente menú desplegable de navegación.
-Crear un componente de menú hamburguesa el cual, con un evento click, desplegará la barra lateral de navegación en cualquier escena.
-Develop 
-Team
+1.1. RF1.1
+  - Crear el componente menú desplegable de navegación.
+  - Crear un componente de menú hamburguesa el cual, con un evento click, desplegará la barra lateral de navegación en cualquier escena.
+  - Develop Team
 RF1.2
 Diseñar la estructura y funcionalidad de la barra lateral.
 Crear un diseño atractivo y eficaz para la barra lateral, la cuál contendrá enlaces a todas las secciones importantes de la online learning platform. Una vez creada visualmente, adicionarle la funcionalidad para que se haga visible y se oculte con el componente de menú de hamburguesa.
