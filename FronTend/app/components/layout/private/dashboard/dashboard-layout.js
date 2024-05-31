@@ -35,7 +35,7 @@ export function DashboardLayout(
     sidebarData = [
         { href: '/dashboard', name: 'Home', imagen: home },
         { href: '/dashboard/settings', name: 'Lenguajes', imagen: rutas },
-        { href: '/dashboard/challenge', name: 'Retos', imagen: juegos },
+        { href: '/dashboard/challenge/tips', name: 'Retos', imagen: juegos },
         { href: '/dashboard/statistic', name: 'Estadisticas',imagen: gamificacion},
         { href: '/dashboard/forum', name: 'Tienda', imagen: tienda },
         {href: '/dashboard/routes', name: 'Rutas de aprendizaje', imagen: routes },

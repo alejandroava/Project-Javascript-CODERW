@@ -1,7 +1,7 @@
 import styles from './footer.css'
 export function FooterScene() {
     return `
-    <hr>
+   
     <div class='${styles.footer_container}'>
         <div class= '${styles.cr}'>
             <p>Copyright © 2024 CODERW</p>

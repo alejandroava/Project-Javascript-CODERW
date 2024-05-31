@@ -10,7 +10,7 @@ export function HomeScene() {
     <div class='${styles.container}'>
       <div class='${styles.content} ${styles.color_html}'>
         <h2 class='${styles.content__title}'>HTML</h2>
-        <p>Domina la estructura y marcados de paginas web</p>
+        <p class='${styles.p}'>Domina la estructura y marcados de paginas web</p>
         <div class='${styles.card_footer}'>
           <a href=''class='${styles.content__a}' >Empezar aprender</a>
           <img src='${html}'>
@@ -18,7 +18,7 @@ export function HomeScene() {
       </div>
       <div class='${styles.content} ${styles.color_css}'>
         <h2 class='${styles.content__title}'>CSS</h2>
-        <p>Domina el diseño y el estilo de las páginas web.</p>
+        <p class='${styles.p}'>Domina el diseño y el estilo de las páginas web.</p>
         <div class='${styles.card_footer}'>
           <a href='' class='${styles.content__a}'>Empezar aprender</a>
           <img src='${css}'}>
@@ -26,7 +26,7 @@ export function HomeScene() {
       </div>
       <div class='${styles.content} ${styles.color_js}'>
         <h2 class='${styles.content__title}'>Javascript</h2>
-        <p>Domina la lógica de programación y la interactividad en las páginas web.</p>
+        <p class='${styles.p}'>Domina la lógica de programación y la interactividad en las páginas web.</p>
         <div class='${styles.card_footer}'>
           <a href='' class='${styles.content__a}'>Empezar aprender</a>
           <img src='${js}'>

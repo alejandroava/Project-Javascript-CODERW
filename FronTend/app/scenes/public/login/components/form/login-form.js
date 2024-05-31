@@ -28,7 +28,7 @@ export async function LoginFormComponent() {
   </div>
   <div class="${style.format}">
     <form id="loginForm" class="${style.form}">
-    <h2>Login</h2>
+    <h2 class="${style.titless}">Login</h2>
     <label for="email" class="${style.label}">Email:</label>
     <input type="text" id="email" name="email" autocomplete="email" class="${style['input-email']}">
     <label for="password" class="${style.label}">Password:</label>

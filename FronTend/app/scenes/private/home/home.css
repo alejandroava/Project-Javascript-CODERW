@@ -34,7 +34,7 @@
 .content__a:hover{
     background-color: var(--secondary-color);
 }
-p {
+.p {
     font-size: 15px;
     color: var(--white-color);
     padding: 10px;

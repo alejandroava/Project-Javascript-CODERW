@@ -40,7 +40,7 @@ export const ProfileScene = () => {
             
       
         try {
-            const response = await fetch("http://localhost:3000/perfil")
+            const response = await fetch("http://localhost:3000/languages")
             
             if (!response.ok) {
                 throw new Error("error en la peticion")
@@ -48,18 +48,11 @@ export const ProfileScene = () => {
             const data = await response.json();
         //    console.log(data)
            
-            $myUserName.textContent = data.name
-            const fragmentByMedals = data.info.medals.map((medal, i ) => 
-                `
-                    <li><img src=${medal} alt="medallas" style ="width: 70px"></img></li>
-        
-                `
-            ).join("")
-            $myListMedals.innerHTML = fragmentByMedals
            
-            const fragmentByTable = data.info.languages.map((language, i ) => 
+           
+            const fragmentByTable = data.map((language, i ) => 
                 `   <tr>
-                        <td>${language}</td>
+                        <td>${language.name}</td>
                         <td>
                             <div class=${styles["progress-bar"]}>
                                 <div class=${styles["progress-fill"]} style= width:${(i + 2 ) * per }%;}></div>
@@ -71,6 +64,26 @@ export const ProfileScene = () => {
             // console.log(fragment)
         } catch (error) {
             console.log("hubo un error:", error)
+        }
+
+        try {
+            const res = await fetch("http://localhost:3000/profile")
+            if (!res.ok) {
+                throw new Error("hubo un erro en la peticion")
+            }
+
+            const datos = await res.json()
+            $myUserName.innerHTML = datos.name
+            console.log(datos)
+            const medals = datos.info.medals.map((medal) => 
+                `<li><img style=" width: 80px"  src="${medal}" alt=""></li>`
+            
+            ).join("")
+            console.log(medals)
+            $myListMedals.innerHTML = medals
+        } catch (error) {
+            
+            console.log("")
         }
     }
     

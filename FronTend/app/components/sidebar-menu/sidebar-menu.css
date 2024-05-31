@@ -16,7 +16,7 @@ aside.sidebar-menu > ul {
     height: 100%;
     gap: var(--spacing-1);
     padding-top: 50px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 aside.sidebar-menu > ul > li {

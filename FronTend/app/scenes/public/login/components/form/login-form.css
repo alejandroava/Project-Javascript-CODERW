@@ -12,10 +12,13 @@
     border-radius: 5px;
     position: absolute;
 }
+.titless{
+  color: white;
+}
 
 .label {
     margin-bottom: 5px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .input-email,
