@@ -172,6 +172,9 @@ Existe un problema que manejan todos los centros de educación… El cual consis
 ## Tablero de Actividades
 ![imagen](https://github.com/alejandroava/olp-junte-paginas/assets/122475865/2029d4cc-6d09-415b-9a80-e8baade1006d)
 
+##Prototipo de la aplicación
+https://excalidraw.com/#json=Ejk6wIuCvkyaJy-uKTwFA,S4fYBIFU1dWliHpWXolXgQ
+
 
 
 
