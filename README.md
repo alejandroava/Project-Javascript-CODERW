@@ -27,24 +27,22 @@ Existe un problema que manejan todos los centros de educación… El cual consis
 3. Largo Plazo: Usar la plataforma de aprendizaje dentro de Riwi con las futuras cohortes y comercializar el acceso a otras instituciones.
 
 ## Requisitos Funcionales e Historias de Usuario
-1. HU1 
+- HU1 
   - Navegación del sitio.
   - Como usuario, quiero poder acceder a las diferentes secciones de la aplicación a través de una barra lateral (menú desplegable) y una barra de navegación para poder navegar fácilmente por el sitio y         encontrar lo que necesito rápidamente.
   - Usuario
-1.1. RF1.1
+- RF1.1
   - Crear el componente menú desplegable de navegación.
   - Crear un componente de menú hamburguesa el cual, con un evento click, desplegará la barra lateral de navegación en cualquier escena.
   - Develop Team
-RF1.2
-Diseñar la estructura y funcionalidad de la barra lateral.
-Crear un diseño atractivo y eficaz para la barra lateral, la cuál contendrá enlaces a todas las secciones importantes de la online learning platform. Una vez creada visualmente, adicionarle la funcionalidad para que se haga visible y se oculte con el componente de menú de hamburguesa.
-Develop 
-Team
-RF1.3
-Crear el componente barra de navegación superior.
-Diseñar el componente navbar para reutilizarlo en cualquier escena. Este componente debe incluir enlaces importantes y logotipo de la online learning platform.
-Develop 
-Team
+- RF1.2
+  - Diseñar la estructura y funcionalidad de la barra lateral.
+  - Crear un diseño atractivo y eficaz para la barra lateral, la cuál contendrá enlaces a todas las secciones importantes de la online learning platform. Una vez creada visualmente, adicionarle la               funcionalidad para que se haga visible y se oculte con el componente de menú de hamburguesa.
+  - Develop Team
+- RF1.3
+  - Crear el componente barra de navegación superior.
+  - Diseñar el componente navbar para reutilizarlo en cualquier escena. Este componente debe incluir enlaces importantes y logotipo de la online learning platform.
+  - Develop Team
 RF1.4
 Enrutar los componentes.
 Según la elección del usuario en los componentes de menú desplegable y barra de navegación superior, se deben definir las rutas para lograr mostrar el contenido de la escena necesaria.
